@@ -5,7 +5,7 @@ class Song
 
   def initialize(name)
     @name = name
-    binding.pry
+  
   end
 
   def self.new_by_filename(file)
